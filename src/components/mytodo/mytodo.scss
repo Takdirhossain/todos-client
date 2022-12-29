@@ -1,0 +1,33 @@
+$small: 300px;
+$medium: 580px;
+
+table{
+    padding-top: 50px;
+    border-collapse: collapse;
+    width: 100%;
+    .image{
+        width: 30px;
+height: 30px;
+    }
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+
+     
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+}
+.comment{
+  cursor: pointer;
+}
+@media screen and (min-width:$small ) and (max-width: $medium){
+  table{
+    padding-top: 30px;
+    border-collapse: collapse;
+    width: 20px;
+  }
+}
